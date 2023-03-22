@@ -178,3 +178,21 @@ span{
     padding: 5px 50px;
     transition: all 1s;
 }
+
+/* MEDIA QURIES........................................... */
+
+@media(min-width:320px){
+    .container{
+        width: 100%;
+    }
+}
+@media(min-width:690px){
+    .container{
+        width: 50%;
+    }
+}
+@media(min-width:1020px){
+    .container{
+        width: 35%;
+    }
+}

@@ -106,3 +106,57 @@ span{
 #inp:focus{
     border-color: #1b74e4
 }
+
+/* MEDIA QURIES.................................................................................... */
+
+@media(min-width:320px){
+    .row{
+        display: block;
+        align-items: center;
+    }
+    .col{
+        width:100%;
+    }
+    .col-1{
+        width:100%;
+        background-color: #fff;
+        padding:20px;
+        border-radius: 5px;
+        box-shadow: 0 0 8px skyblue;
+        margin-top: 20px;
+    }
+}
+@media(min-width:690px){
+    .row{
+        display: flex;
+        align-items: center;
+    }
+    .col{
+        width:50%;
+    }
+    .col-1{
+        width:50%;
+        background-color: #fff;
+        padding:20px;
+        border-radius: 5px;
+        box-shadow: 0 0 8px skyblue;
+        margin-top:0;
+    }
+}
+@media(min-width:1020px){
+    .row{
+        display: flex;
+        align-items: center;
+    }
+    .col{
+        width:65%;
+    }
+    .col-1{
+        width:35%;
+        background-color: #fff;
+        padding:20px;
+        border-radius: 5px;
+        box-shadow: 0 0 8px skyblue;
+        margin-top: 0;
+    }
+}
