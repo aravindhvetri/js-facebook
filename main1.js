@@ -15,6 +15,6 @@ if(Lmobile == getNum && Lpsw == getPsw){
     location.href=" https://aravindhvetri.github.io/js-todoList/";
 }
 else{
-    alert("MISSION FAILED..check your aplication");
+    alert("please create your new account");
 }
 }
